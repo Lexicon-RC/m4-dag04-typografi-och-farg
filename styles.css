@@ -1,0 +1,82 @@
+/* ===== Dag 3: grunder, boxmodell ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222222;
+  background-color: #fffaf3;
+}
+
+header {
+  background-color: #5b3a29;
+  color: #ffffff;
+  padding: 16px 24px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #ffffff;
+}
+
+main {
+  padding: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+article {
+  background-color: #ffffff;
+  border: 1px solid #e3d5c3;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+article img,
+#om-oss img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.knapp {
+  display: inline-block;
+  background-color: #8c1010;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #2b1c14;
+  color: #ffffff;
+  padding: 24px;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+address {
+  font-style: normal;
+}
