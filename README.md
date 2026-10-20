@@ -8,7 +8,7 @@ Du översätter en typskala och en färgpalett till CSS, med kontrast som hålle
 
 ## Bakgrund
 
-Typografi och färg är det som mest direkt ger en sida karaktär, och det som oftast går fel i tillgängligheten. Idag arbetar du efter specifikationen i `design.md` (samma sorts dokument som din egen överlämning från modul 3).
+Typografi och färg är det som mest direkt ger en sida karaktär, och det som oftast går fel i tillgängligheten. Idag arbetar du efter specifikationen i `design.md` (samma sorts dokument som en designöverlämning från Figma).
 
 ## Så arbetar du (samma som alltid)
 
@@ -50,35 +50,6 @@ Lägg till en tydlig `:focus-visible`-stil för länkar, knappar och formulärf�
 
 Hero-sektionen får bakgrund, `padding` och större text. Formulärfälten får `padding`, kantlinje och `font: inherit`. Etiketterna blir fetstilta.
 
-## AI-spåret (nivå 1: Förklara och granska)
-
-**Kontrollera AI:s kontrastpåståenden** (cirka 20 minuter, efter att du gjort din egen lösning)
-
-AI är din granskare och förklarare. AI skriver inte din lösning. AI anger gärna kontrastvärden med full självsäkerhet. Kontrollera dem alltid med ett verktyg.
-
-Regler: egen lösning först, du ska kunna förklara varje rad, och du loggar i `docs/ai-logg.md` i `mitt-projekt`. Reglerna finns i `AI-REGLER.md` i `mitt-projekt`.
-
-1. Be AI föreslå tre färgpar med kontrastvärden (prompten nedan).
-2. Kontrollera varje par i ett kontrastverktyg eller i DevTools färgväljare.
-3. Stämde AI:s siffror? Skriv upp avvikelserna.
-4. Välj ett par som klarar 4,5:1 och motivera valet i en mening.
-5. Logga resultatet.
-
-Prompt att utgå från:
-
-```
-Föreslå tre färgpar (text och bakgrund)
-för en kafésida i varma toner.
-Ange kontrastvärdet för varje par.
-```
-
-**Kontrollera med:**
-
-- Använd samma kontrastverktyg som i modul 3.
-- I Chrome DevTools visar färgväljaren kontrastvärdet.
-
-**I ditt projekt:** Kontrollera kontrasten i din egen palett och dokumentera värdena.
-
 ## Kontrollista: så vet du att du är klar
 
 - [ ] Typsnitt, storlekar och radavstånd matchar `design.md`.
@@ -87,17 +58,12 @@ Ange kontrastvärdet för varje par.
 - [ ] Det finns en tydlig fokusmarkering, och du har testat med Tab.
 - [ ] Formuläret är läsbart och fälten är lätta att träffa.
 - [ ] Du har pushat till din fork och skickat in länken.
-- [ ] Du har gjort AI-uppgiften och skrivit en post i `docs/ai-logg.md`.
 
 ## Tips om du fastnar
 
 - Texten ser för liten ut? Du har kanske satt `font-size` på fel element. Kolla i DevTools.
 - Kontrasten blir för låg? Mörka färgen lite, inte hela designen.
 - Georgia syns inte? Kontrollera stavningen på `font-family` och att du har en reservlista.
-
-## Ditt projekt: Dagens steg i `mitt-projekt`
-
-Efter övningen här jobbar du vidare i ditt eget projekt (din design från modul 3). Dagens steg står i `PROJEKTSTEG.md` i ditt repo `mitt-projekt`, under **Dag 4**. Det är där ditt riktiga arbete växer. Övningen här är träningsbanan.
 
 ## Inlämning
 
@@ -106,8 +72,7 @@ Efter övningen här jobbar du vidare i ditt eget projekt (din design från modu
 I formuläret fyller du i:
 
 1. Länk till din fork av det här repot.
-2. Länk till ditt `mitt-projekt`.
-3. Reflektion: Vilket kontrastvärde överraskade dig mest, och vad ändrade du för att klara kravet?
+2. Reflektion: Vilket kontrastvärde överraskade dig mest, och vad ändrade du för att klara kravet?
 
 ## Vill du mer? (frivilligt)
 
