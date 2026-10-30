@@ -67,7 +67,7 @@ Hero-sektionen får bakgrund, `padding` och större text. Formulärfälten får 
 
 ## Inlämning
 
-**Deadline: imorgon klockan 09.00.** Allt lämnas in i Microsoft Forms. Du behöver inte redovisa något muntligt.
+**Deadline: Måndag klockan 09.00.** Allt lämnas in i Microsoft Forms. Du behöver inte redovisa något muntligt.
 
 I formuläret fyller du i:
 
